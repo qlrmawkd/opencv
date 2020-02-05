@@ -32,7 +32,7 @@ img_color = cv2.imread('img/defect2.jpg')
 img_crop = cv2.imread('img/defect2.jpg')
 img_gray = cv2.cvtColor(img_color, cv2.COLOR_BGR2GRAY)
 #width와 height를 변경할 때마다, 아래의 쓰레스홀드 값을 변경해주어야함.
- 
+#not only height but also width 
 
 height, width = img_gray.shape[::-1]
 
